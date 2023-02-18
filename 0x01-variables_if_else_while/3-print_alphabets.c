@@ -10,15 +10,15 @@
  */
 int main(void)
 {
-	char alp;
+	char m;
 
-for (alp = 'a'; alp = 'z'; alp++)
+for (m= 'a';m <= 'z';m++)
 {
-putchar(alp);
+putchar(m);
 }
-for (alp = 'A'; alp = 'Z'; alp++)
+for (m = 'A';m <= 'Z';m++)
 {
-putchar(alp);
+putchar(m);
 }
 putchar('\n');
 return (0);
