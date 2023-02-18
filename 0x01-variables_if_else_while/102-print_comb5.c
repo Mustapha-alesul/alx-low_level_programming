@@ -9,24 +9,22 @@
  */
 int main(void)
 {
-	int m, n;
+	int k, e;
 
-	for (m = 0; m <= 98; m++)
+	for (k = 0; k <= 98; k++)
 	{
-	for (n = m + 1; n <= 99; n++)
-	{
-	putchar((m / 10) + '0');
-	putchar((m % 10) + '0');
-	putchar(' ');
-	putchar((n / 10) + '0');
-	putchar((n % 10) + '0');
-	if ( m == 98 && n ==99)
-	{
-	continue;
-	putchar(',');
-	putchar(' ');
-	}
-	}
+		for (e = k + 1; e <= 99; e++)
+		{
+			putchar((k / 10) + '0');
+			putchar((k % 10) + '0');
+			putchar(' ');
+			putchar((e / 10) + '0');
+			putchar((e % 10) + '0');
+			if (k == 98 && e == 99)
+				continue;
+			putchar(',');
+			putchar(' ');
+		}
 	}
 	putchar('\n');
 	return (0);
