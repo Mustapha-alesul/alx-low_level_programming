@@ -2,7 +2,7 @@
 
 /**
  * print_alphabet_x10(void) - print 10 times lower case
- * Return: will return void
+ * Return: always 0
  */
 
 void print_alphabet_x10(void)
@@ -10,7 +10,7 @@ void print_alphabet_x10(void)
 	char alph = 'a';
 	int i = 0;
 
-	while (i < 10)
+	while (i <= 10)
 	{
 		while (alph <= 'z')
 		{
