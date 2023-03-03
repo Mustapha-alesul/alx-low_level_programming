@@ -3,7 +3,7 @@
 
 /**
  * print_buffer -  function that prints a buffer
- * @b: buffer pointer 
+ * @b: buffer pointer
  * @size: size integer
  * Return: void
  */
