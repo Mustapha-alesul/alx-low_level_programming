@@ -3,7 +3,7 @@
 /**
  * flip_bits - a function that returns the number of bits
  *that would need to flip to get from one number to another
- * @n: first integer number 
+ * @n: first integer number
  * @m: second integer number
  * Return: will return to the flipped bit value
  */
@@ -17,7 +17,7 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m)
 	{
 		if (j & 1)
 		{
-		k ++;
+		k++;
 		}
 		j >>= 1;
 	}
