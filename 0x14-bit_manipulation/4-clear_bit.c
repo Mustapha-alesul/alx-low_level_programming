@@ -11,7 +11,7 @@ int clear_bit(unsigned long int *n, unsigned int index)
 {
 	const unsigned long int BITS_PER_LONG = sizeof(unsigned long int) * 8;
 
-	 if (index >= BITS_PER_LONG)
+	if (index >= BITS_PER_LONG)
 	{
 		return (-1);
 	}
